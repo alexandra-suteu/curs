@@ -1,0 +1,72 @@
+/* Header */
+header nav {
+    background: url('../images/banner.jpg') center;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #dcc7aa;
+}
+
+header nav ul li a:hover {
+    color: #101357;
+}
+
+/* Body */
+body {
+    font-size: 20px;
+    font-family: 'Open Sans', "Helvetica Neue", Arial, sans-serif;
+    color: #101357;
+    text-align: center;
+}
+
+div {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 24px;
+    text-align: left;
+}
+
+h1 {
+    color: #f7882f;
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    color: #f7882f;
+    font-size: 34px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+hr {
+    border: none;
+    height: 20px;
+}
+
+/* Footer */
+footer {
+    background: #f7882f;
+    color: #f2f3ee;
+    padding: 10px 0;
+}
